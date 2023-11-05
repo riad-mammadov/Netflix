@@ -1,0 +1,30 @@
+:root {
+    --primary-color: #e50914;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    background: black;
+    color: #999;
+}
+
+ul{
+    list-style: none;
+
+}
+
+h1,h2,h3,h4 {
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
