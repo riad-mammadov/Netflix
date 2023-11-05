@@ -1,25 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        crossorigin="anonymous">
     <title>Netflix - Watch TV Shows Online</title>
 </head>
+
 <body>
-<header class="showcase">
-    <div class="showcase-top">
-        <img src="logo.png" alt="Netflix Logo">
-        <a href="a" class="btn btn-rounded"></a>
-    </div>
-    <div class="showcase-content">
-        <h1>See what's next</h1>
-        <p>Watch anywhere. Cancel anytime</p>
-        <a href="a" class="btn btn-xl">
-        Watch Free For 30 Days <i class="fas fa-chevron-right btn-icon"></i>
-    </a>
-    </div>
-</header>
+    <header class="showcase">
+        <div class="showcase-top">
+            <img src="img/logo.png" alt="Netflix Logo">
+            <a href="a" class="btn btn-rounded">
+                Sign In
+            </a>
+        </div>
+        <div class="showcase-content">
+            <h1>See what's next</h1>
+            <p>Watch anywhere. Cancel anytime</p>
+            <a href="a" class="btn btn-xl">
+                Watch Free For 30 Days <i class="fas fa-chevron-right btn-icon"></i>
+            </a>
+        </div>
+    </header>
+
+    <section class="tabs">
+        <div class="container">
+            <div id="tab-1" class="tab-item tab-border">
+                <i class="fas fa-door-open fa-3x"></i>
+                <p class="hide-sm">Cancel anytime</p>
+            </div>
+            <div id="tab-2" class="tab-item">
+                <i class="fas fa-tablet-alt fa-3x"></i>
+                <p class="hide-sm">Watch anywhere</p>
+            </div>
+            <div id="tab-3" class="tab-item">
+                <i class="fas fa-tags fa-3x"></i>
+                <p class="hide-sm">Pick your price</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="tab-content">
+        <div class="container">
+            <!-- Tab Content 1-->
+            <div id="tab-1-content" class="tab-content-item show">
+                <div class="tab-1-content-inner">
+                    <div>
+                        <p class="text-lg">
+                            If you decide Netflix isnt for you - no problem. No commitment.
+                            Cancel online anytime.
+                        </p>
+                        <a href="a" class="btn btn-lg">Watch Free For 30 Days</a>
+                    </div>
+                    <img src="img/tab-content-1.png" alt="">
+                </div>
+            </div>
+
+
+            <div id="tab-2-content" class="tab-content-item">
+                <div class="tab-2-content-top">
+                    <p class="text-lg">
+                        Watch TV shows and movies anytime, anywhere - personalised for you.
+                    </p>
+                    <a href="a" class="btn btn-lg">On demand movies at all times</a>
+                </div>
+                <div class="tab-2-content-bottom">
+                    <div>
+                        <img src="img/tab-content-1.png" alt="">
+                        <p class="text.md"> Watch on your TV</p>
+                    </div>
+
+                    <div>
+                        <img src="img/tab-content-2-2.png" alt="">
+                        <p class="text.md"> Available on phone or tablet, wherever you go.</p>
+                    </div>
+
+                    <div>
+                        <img src="img/tab-content-2-3.png" alt="">
+                        <p class="text.md">Watch instantly or download for later</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>Questions? Call 1-866-579-313</p>
+        <div class="footer-cols">
+            <ul>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Investor Relations</a></li>
+                <li><a href="#">Ways To Watch</a></li>
+                <li><a href="#">Corporate Information</a></li>
+                <li><a href="#">Netflix Originals</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Help Center</a></li>
+                <li><a href="#">Jobs</a></li>
+                <li><a href="#">Terms Of Use</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Account</a></li>
+                <li><a href="#">Redeem Gift Cards</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Speed Test</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Media Center</a></li>
+                <li><a href="#">Buy Gift Cards</a></li>
+                <li><a href="#">Cookie Preferences</a></li>
+                <li><a href="#">Legal Notices</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="JS/main.js"></script>
 </body>
+
 </html>
